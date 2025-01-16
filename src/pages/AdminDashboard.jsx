@@ -7,7 +7,6 @@ const AdminDashboard = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  console.log(users);
   useEffect(() => {
     const fetchUserData = async () => {
       try {
